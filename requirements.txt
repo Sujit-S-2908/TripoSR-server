@@ -1,0 +1,11 @@
+torch
+torchvision
+gradio
+rembg
+onnxruntime
+mcubes
+numpy
+trimesh
+scipy
+pyrender
+opencv-python
