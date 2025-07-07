@@ -7,7 +7,7 @@ app = Flask(__name__)
 model_path = "checkpoints/tripoSR.ckpt"
 
 # Load model once at startup
-triposr = TripoSRModel(ckpt_path=model_path)
+triposr = TripoSRModel(model_path)
 
 @app.route("/predict", methods=["POST"])
 def predict():
