@@ -2,6 +2,7 @@ services:
   - type: web
     name: triposr-api
     env: python
+    pythonVersion: 3.10
     buildCommand: pip install -r requirements.txt
     startCommand: python download_model.py && python app.py
     plan: free
