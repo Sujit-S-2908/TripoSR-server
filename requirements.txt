@@ -9,3 +9,6 @@ trimesh
 scipy
 pyrender
 opencv-python
+flask
+numpy
+Pillow
