@@ -1,9 +1,9 @@
 import os
 import requests
 
-HF_URL = "https://huggingface.co/TechGeeek/TripoSR-model/resolve/main/TripoSR.ckpt"
+HF_URL = "https://huggingface.co/TechGeeek/TripoSR-model/resolve/main/tripoSR_fp16.ckpt"
 CHECKPOINT_DIR = "checkpoints"
-CHECKPOINT_PATH = os.path.join(CHECKPOINT_DIR, "tripoSR.ckpt")
+CHECKPOINT_PATH = os.path.join(CHECKPOINT_DIR, "tripoSR_fp16.ckpt")
 
 def download():
     os.makedirs(CHECKPOINT_DIR, exist_ok=True)
