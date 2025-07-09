@@ -4,7 +4,7 @@ import os
 from io import BytesIO
 
 app = Flask(__name__)
-model_path = "checkpoints/tripoSR.ckpt"
+model_path = "checkpoints/tripoSR_fp16.ckpt"
 
 # Load model once at startup
 triposr = TripoSRModel(model_path)
